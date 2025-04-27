@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Syed Nasir | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader"></div>
+
+<!-- Dark Mode Toggle -->
+<button id="darkToggle">🌓</button>
+
+<!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">↑</button>
+
+<!-- Hero Section -->
+<header class="hero">
+  <div class="container">
+    <img src="Image.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>Hello, I'm <span id="typing-text"></span></h1>
+    <p>Aspiring Cloud Engineer & DevOps Enthusiast</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="section">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I am passionate about Cloud, DevOps, and building scalable systems. Currently learning AWS, Docker, Kubernetes, and improving my frontend development skills.</p>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <!-- Currency Converter Project -->
+        <div class="project-card">
+          <h3>Currency Converter</h3>
+          <p>A modern currency converter app built using JavaScript and ExchangeRate API.</p>
+          <p class="more-info">Responsive design, real-time updates using API calls.</p>
+          <button class="view-btn">View Project</button>
+        </div>
+        
+        <!-- Portfolio Website Project -->
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>This portfolio website built using HTML, CSS, and JavaScript, hosted on AWS S3.</p>
+          <p class="more-info">Dark mode, smooth animations, professional UI.</p>
+          <button class="view-btn">View Project</button>
+        </div>
+  
+        <!-- New Projects: Leads Tracker -->
+        <div class="project-card">
+          <h3>Leads Tracker</h3>
+          <p>A project to track sales leads, including contact info, status, and notes.</p>
+          <p class="more-info">User-friendly UI with smooth data management.</p>
+          <button class="view-btn">View Project</button>
+        </div>
+  
+        <!-- New Projects: Job Listing Platform -->
+        <div class="project-card">
+          <h3>Job Listing Platform</h3>
+          <p>A platform for posting and searching job listings, with filters and search options.</p>
+          <p class="more-info">Customizable search filters, user-friendly interface.</p>
+          <button class="view-btn">View Project</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>AWS</li>
+      <li>Docker</li>
+      <li>Linux</li>
+      <li>JavaScript</li>
+      <li>Git & GitHub</li>
+      <li>CI/CD Pipelines</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for any opportunities, collaborations, or just to say hello!</p>
+      
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <form action="mailto:Nasirsyed652@gmail.com" method="post" enctype="text/plain">
+          <div class="form-field">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-field">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-field">
+            <textarea name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>© 2025 Syed Nasir. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
