@@ -1,4 +1,3 @@
-// Typing Effect
 const text = "Syed Nasir";
 let index = 0;
 function typeEffect() {
@@ -12,10 +11,10 @@ window.onload = function() {
     typeEffect();
     setTimeout(() => {
         document.getElementById('loader').style.display = 'none';
-    }, 1500); // hide loader after 1.5 seconds
+    }, 1500); 
 };
 
-// Fade-in sections
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -28,7 +27,7 @@ document.querySelectorAll('.section').forEach(section => {
     observer.observe(section);
 });
 
-// Back to Top Button
+
 const backToTopButton = document.getElementById('backToTop');
 
 window.onscroll = function() {
@@ -43,7 +42,7 @@ backToTopButton.addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// Dark Mode Toggle
+
 const darkToggle = document.getElementById('darkToggle');
 darkToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');

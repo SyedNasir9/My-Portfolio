@@ -1,0 +1,5 @@
+Developed and deployed a static job listing web app using AWS services (S3, Route 53), demonstrating cloud infrastructure expertise.
+
+Configured S3 for static website hosting, ensuring scalability, availability, and security; set up Route 53 for custom domain management and DNS routing.
+
+Optimized website performance with gzip compression and caching, ensuring faster load times and improved user experience.
