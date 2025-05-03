@@ -127,9 +127,9 @@ body.dark-mode {
 /* Projects Section */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
-    gap: 20px; /* Space between cards */
-    padding: 20px; /* Add some padding around the grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; 
+    padding: 20px; 
 }
 
 .project-card { 
@@ -145,8 +145,8 @@ body.dark-mode {
 
 /* Hover effect on project card */
 .project-card:hover {
-    transform: scale(1.05); /* Slight zoom effect */
-    background: #e0e0e0; /* Light background on hover */
+    transform: scale(1.05);
+    background: #e0e0e0; 
 }
 
 /* More info section inside project card */
@@ -159,7 +159,7 @@ body.dark-mode {
 
 /* Show more-info when project card is hovered */
 .project-card:hover .more-info {
-    display: block; /* Display the hidden more-info */
+    display: block; 
 }
 
 /* Project Card Titles and Text */
@@ -190,10 +190,10 @@ body.dark-mode {
     background-color: #4e6db1;
 }
 
-/* Responsiveness */
+
 @media (max-width: 768px) {
     .projects-grid {
-        grid-template-columns: 1fr; /* Stack cards vertically on small screens */
+        grid-template-columns: 1fr; 
     }
 }
 
@@ -220,10 +220,10 @@ body.dark-mode {
 
 /* Hover animation */
 .skills-list li:hover {
-    transform: scale(1.1);  /* Slightly enlarges the button */
-    background: #6e8efb;    /* Changes background color */
-    color: white;           /* Changes text color */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds stronger shadow */
+    transform: scale(1.1); 
+    background: #6e8efb;
+    color: white;        
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .skills-list li {
@@ -246,34 +246,34 @@ footer {
 
 /* Project Card Styles in Dark Mode */
 body.dark-mode .project-card {
-    background-color: #2a2a2a; /* Dark background for cards */
-    color: #ddd;               /* Lighter text color for readability */
-    border: 1px solid #444;    /* Lighter border for contrast */
+    background-color: #2a2a2a; 
+    color: #ddd;              
+    border: 1px solid #444;    
 }
 
 body.dark-mode .project-card:hover {
-    background-color: #444; /* Darker background on hover */
-    color: white;           /* White text for hover effect */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+    background-color: #444; 
+    color: white;           
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
 /* Skills Card Styles in Dark Mode */
 body.dark-mode .skills-list li {
-    background: #333;          /* Dark background for skills */
-    color: #ccc;               /* Lighter text color */
-    border: 1px solid #555;    /* Lighter border for contrast */
+    background: #333;         
+    color: #ccc;              
+    border: 1px solid #555;   
 }
 
 /* Skills Card Hover Effect in Dark Mode */
 body.dark-mode .skills-list li:hover {
-    background: #6e8efb;       /* Highlight color for hover in dark mode */
-    color: white;              /* Text color turns white on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Stronger shadow for hover */
+    background: #6e8efb;     
+    color: white;              
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 /* Contact Me Section */
 #contact {
-    background: #f5f7fa; /* Light background for a clean look */
+    background: #f5f7fa;
     padding: 60px 20px;
     text-align: center;
     border-top: 1px solid #ddd;
@@ -298,15 +298,15 @@ body.dark-mode .skills-list li:hover {
 
 /* Contact Me Section */
 #contact {
-    background: #f5f7fa; /* Light background for a clean look */
+    background: #f5f7fa; 
     padding: 60px 20px;
     text-align: center;
     border-top: 1px solid #ddd;
 }
 
 #contact .container {
-    max-width: 600px; /* Set a max width to make the container smaller */
-    margin: 0 auto; /* Center the container */
+    max-width: 600px; 
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -368,7 +368,7 @@ body.dark-mode .skills-list li:hover {
     color: #333;
 }
 
-/* Responsiveness */
+
 @media (max-width: 768px) {
     #contact .container {
         padding: 0 15px;
